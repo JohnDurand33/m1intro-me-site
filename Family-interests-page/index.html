@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../style.css">
   </head>
 
-<body class="bg-light">
+<body class="bg-light me-0">
 
     <nav class="navbar navbar-expand-lg bg-custom navbar-dark">
-        <div class="container-fluid d-flex justify-content-between">
+        <div class="container-fluid">
             <a href="#" class="navbar-brand fs-4 ms-5 ps-5">John Durand</a>
             <button
                 class="navbar-toggler pe-5"
@@ -21,8 +21,16 @@
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto me-5 pe-5">
-                    <li class="nav-item">
-                        <a href="#overview" class="nav-link">My Story</a>
+                    <li class="nav-item dropdown">
+                        <a href="#overview" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" role="button" 
+                        aria-expanded="false">My Story</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                          </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" role="button" 
@@ -36,29 +44,153 @@
                           </ul>
                     </li>
                     <li>
-                        <a href="#footer" class="nav-link">More Information</a>
+                        <a href="#footer" class="nav-link">Contact Info</a>
                     </li> 
                 </ul>
             </div>
         </div>
     </nav>
 
-<!-- Diane / Nola page   -->
+<!-- Sportsden Page   -->
 
-<section id="dee.nola.about">
-    <h1 class="text-center text-dark mt-1 mt-lg-3 custom-bb">These are some images I wanted to share so you can see why left my career to try something new and exciting!</h1>
-    <p class="text-center text-dark fs-2 mt-1 mt-lg-3 mb-1 mb-md-3 pt-1 pt-md-3 pb-1 pb-md-3">Diane and I LOVE sports!  We even built a basement so we can enjoy as much as possible!</p>
-    <div class="d-flex container-fluid m-0 p-0 mb-1 mb-md-3 pb-1 pb-md-3 justify-content-evenly">
-        <div class="sports-den-gallery">
-            <div class="sports-den-img-wrapper">
-                <img src="Static/sports-den-photos/6x4-basement-pano.jpg" alt="">
+<section id="sportsden">
+    <h1 class="text-center text-dark mt-1 mt-lg-3 pb-1 pb-md-3 fs-2">Below are some images I wanted to share so you can see why I left my career to try something new and exciting!</h1>
+    <div class="seperator">THE SPORTS DEN</div>
+    <p class="text-center text-dark fs-2 mt-1 mt-lg-3 pt-1 pt-md-3">Diane and I LOVE sports!  We even built a basement so we can enjoy as much as possible!</p>
+    <div id="sportdengallery">
+        <div class="sports-den-img-wrapper custom-border">
+            <img src="../Static/sports-den-photos/6x4-basement-pano.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                Here's a pano shot when it was first built in 2020. Dee asked for the table to turn into a poker table.  <i class="fa-regular fa-face-sad-cry"></i></div>
+        </div>
+        <div class="sports-den-img-wrapper custom-border">
+            <img src="../Static/sports-den-photos/6x4-wetbar.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                Diane wanted the wetbar and she doesn't drink.</div>
+        </div>
+        <div class="sports-den-img-wrapper custom-border">
+            <img src="../Static/sports-den-photos/6x4-jerseys-short.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                She's also the one who wanted the jerseys...</div>
+        </div>
+        <div class="sports-den-img-wrapper custom-border">
+            <img src="../Static/sports-den-photos/6x4-jerseys-long.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                Everywhere...  I hope you can see what I'm driving at.</div>
+        </div>
+    </div>
+    <div class="seperator">THE DOG</div>
+
+<!-- Nola page -->
+
+<section id="nola">
+    <p class="text-center text-dark fs-2 mt-1 pt-1 pt-md-3 mb-1 mb-md-3 pb-1 pb-md-3 custom-bb">"Nola" is the second passion we share.  
+        I wasn't around to help raise her, Diane's FIRST dog (SMH), but I'm making up for it now!</p>
+    <div id="nolagallery">
+        <div class="nola-img-wrapper custom-border">
+            <img src="../Static/nola-photos/4x6-nola-baby.jpg" alt="" class="img-fluid object-fit-contain">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                FOUR WEEKS OLD</div>
+        </div>
+        <div class="nola-img-wrapper fs-1 fw-bold text-center">How'd I miss this???</div>
+        <div class="nola-img-wrapper custom-border">
+            <img src="../Static/nola-photos/4x6-nola-baby-bed.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                EIGHT WEEKS OLD - DAY ONE HOME!</div>
+        </div>
+        <div class="nola-img-wrapper custom-border">
+            <img src="../Static/nola-photos/4x6-nola-medium.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                THE "GAZELLE" PHASE</div>
+        </div>
+        <div class="nola-img-wrapper custom-border">
+            <img src="../Static/nola-photos/4x6-nola-bed-grownup.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                ONLY SEVENTEEN MONTHS OLD - ALREADY LIKE HER DADDY</div>
+        </div>
+        <div class="nola-img-wrapper custom-border">
+            <img src="../Static/nola-photos/4x6-nola-car.jpg" alt="" class="img-fluid">
+            <div class="gallerytext container-fluid position-absolute bottom-0 start-50 translate-middle-x text-center text-white fs-4 pb-1 pb-md-4">
+                RIDE OR DIE</div>
+        </div>
+    </div>
+    <div class="seperator">THE TRAVEL</div>
+</section>
+
+<!-- Travel -->
+
+<div class="d-flex container-fluid m-0 p-0 mb-1 mb-md-3 pb-1 pb-md-3 mt-1 mt-md-3 pt-1 pt-md-3 justify-content-evenly">
+    <div class="d-flex trip-container">
+        <div class="trip-carousel-container d-flex justify-content-center">
+            <div class="trip-carousel-wrapper p-5 pt-4">
+                <div id="tripcarousel" class="carousel slide custom-border">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#tripcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#tripcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#tripcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#tripcarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#tripcarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner team-carousel">
+                        <div class="carousel-item active">
+                            <img src="../Static/trip-photos/6x4-john-dee-ny-subway.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="fs-4 opacity-75">First trip to New York on the way to a Yankee's game</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Static/trip-photos/6x4-saints-game.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="fs-4 opacity-75">Dee's First Saints Game</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Static/trip-photos/6x4-family-trips-diane-john-fenway.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="fs-4 opacity-75">Boston Trip to Fenway</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Static/trip-photos/6x4-seattle-john-dee-gametime.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="fs-4 opacity-75">Saints Win In Seattle</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Static/trip-photos/6x4-seattle-john-dee.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="fs-4 opacity-75">Life is Good</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev ps-5" type="button" data-bs-target="#tripcarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next pe-5" type="button" data-bs-target="#tripcarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>  
+                </div>  
             </div>
         </div>
-</section>
-
-<section id="Gallery">
-
-</section>
+        <div class="trip-text-container d-flex ms-5">
+            <div class="trip-container d-flex flex-column justify-content-around">
+            <h2 class="text-center pt-3 pb-3">You only live Once</h2>
+            <p class="fs-4">Enjoy these photos of the "Sports" trips we've taken over the years.  For the last 3 years with the demands of my job, 
+                I couldn't travel for fun, and I never took time off.  All of the things I lived for were escaping my grasp</p>  
+            <p class="fs-4">And now, we have Saints season tickets!</p>  
+            <p class="fs-4">I'm not sure where this road will lead, but I'm REALLY enjoying what I'm learning, 
+                and I've got everything I need to enjoy the things that matter to me most.  
+                Thanks Coding Temple for the part you are playing in making my dream come true. 
+            </div>
+        </div>
+    </div>
+</div>
+<h1 class="text-center text-dark mt-1 mt-lg-3 pt-1 pt-md-3 custom-bt">So, that's my story, and everything you need to know about me. </h1>
+<h1 class="text-center text-dark mt-1 mt-lg-3">I hope that everyone who reads this feels like they know me a little better.  I feel like I do.</h1>
+<h1 class="text-center text-dark mt-1 mt-lg-3">With that, I'll leave you with an image of my FAVORITE QUOTE: </h1>
+<div class="words-to-live-by d-flex justify-content-center "><img class="rounded-top-3" src="../Static/6x4-words-to-live-by.jpg" alt=""></div>
 
 <!-- Footer -->
 
@@ -69,15 +201,18 @@
             <p class="text-light ps-5">Mobile: (480) 823-7482</p>
             <p class="text-light ps-5">Email: john.durand1@gmail.com</p>
         </div>
-        <div class="d-flex align-items-center justify-content-end pt-3 pe-5">
-            <figure>
-                <blockquote class="blockquote text-light">
-                  <p>No one on his deathbed ever said, 'I wish I had spent more time at the office'</p>
-                </blockquote>
-                <figcaption class="blockquote-footer text-light">
-                  Paul Tsongas <cite title="Google">Politician</cite>
-                </figcaption>
-              </figure>
+        <div class="d-flex align-items-center justify-content-start ps-5 text-white fw-semibold">
+            <label for="cars">Please choose your favorite part of my website:</label>
+        <select id="sections" name="sections" class="ms-3 bg-custom-2 text-white">
+            <option value="Intro">Intro</option>
+            <option value="Places">The Job I Left</option>
+            <option value="Team">The Team</option>
+            <option value="Diane" selected>The Girl</option>
+            <option value="Sports Den">Sports Den</option>
+            <option value="Nola">Nola</option>
+            <option value="Travel">Travel</option>
+            <option value="Quote">Words To Live By</option>
+        </select>
         </div>
 </footer>
 
