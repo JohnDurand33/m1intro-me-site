@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -17,6 +17,7 @@ h1 {
 
 .john-img-wrapper img {
     width: 70%;
+    height:auto;
     border: 1px solid rgb(213, 101, 15);
 }
 
@@ -43,8 +44,79 @@ h1 {
     border: 1px solid rgb(213, 101, 15);
 }
 
+.dianenola-img-wrapper h2 {
+    text-decoration: none;
+}
+
 .seperator {
     width: 100%;
     height: 70px;
     background-color: rgb(213, 101, 15);
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.carousel {
+    border-radius: 12px;
+    border: 2px solid rgb(213, 101, 15);
+    overflow: hidden;
+}
+
+.custom-bt {
+    border-top: 2px solid rgb(213, 101, 15);
+}
+
+.custom-bb {
+    border-bottom: 2px solid rgb(213, 101, 15);
+}
+
+.places-carousel-wrapper {
+    width: 80%;
+}
+
+.team-carousel-wrapper {
+    width: 55%;
+}
+
+.dee-carousel-wrapper {
+    width: 55%;
+    height:auto;
+}
+
+h3 {
+    text-shadow: 
+    1px 1px #000,
+    1px -1px #000,
+    -1px 1px #000,
+    -1px -1px #000;
+    font-weight: 600;
+}
+
+h3:hover {
+    color: rgb(213, 101, 15);
+    text-shadow: 
+    1px 1px #000,
+    1px -1px #000,
+    -1px 1px #000,
+    -1px -1px #000;
+    font-weight: 600;
+}
+
+
+
+.sal-team {
+    margin-left: -15%;
+}
+
+
+
+footer {
+    background-color: rgb(213, 101, 15);
+    height: 150px;
+}
+
+figcaption {
+    color: white;
 }
