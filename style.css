@@ -83,9 +83,79 @@ h2 {
     border-bottom: 2px solid rgb(213, 101, 15);
 }
 
+.places-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.places-carousel-container {
+    width: 100%
+}
+
 .places-carousel-wrapper {
     width: 80%;
 }
+
+.places-text-container {
+    width: 90%
+}
+
+@media screen and (min-width: 768px) {
+    .places-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .places-carousel-container {
+        width: 58.33%;
+    }
+    
+    .places-text-container {
+        width: 33.33%;
+    }
+
+.places-carousel-wrapper {
+    width: 55%;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-carousel-container {
+    width: 100%
+}
+
+.team-carousel-wrapper {
+    width: 80%;
+}
+
+.team-text-container {
+    width: 90%
+}
+
+@media screen and (min-width: 768px) {
+    .team-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-carousel-container {
+        width: 58.33%;
+    }
+    
+    .team-text-container {
+        width: 33.33%;
+    }
 
 .team-carousel-wrapper {
     width: 55%;
