@@ -95,14 +95,15 @@ h2 {
 }
 
 .places-carousel-wrapper {
-    width: 80%;
+    min-width: 40rem;
+    max-width: 50rem;
 }
 
 .places-text-container {
     width: 90%
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .places-container {
         display: flex;
         flex-direction: row;
@@ -117,9 +118,6 @@ h2 {
     .places-text-container {
         width: 33.33%;
     }
-
-.places-carousel-wrapper {
-    width: 55%;
 }
 
 .team-container {
@@ -134,14 +132,15 @@ h2 {
 }
 
 .team-carousel-wrapper {
-    width: 80%;
+    min-width: 40rem;
+    max-width: 40rem;
 }
 
 .team-text-container {
     width: 90%
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .team-container {
         display: flex;
         flex-direction: row;
@@ -156,14 +155,45 @@ h2 {
     .team-text-container {
         width: 33.33%;
     }
+}
 
-.team-carousel-wrapper {
-    width: 55%;
+.dee-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dee-carousel-container {
+    width: 100%
 }
 
 .dee-carousel-wrapper {
-    width: 55%;
-    height:auto;
+    min-width: 40rem;
+    max-width: 40rem;
+}
+
+.dee-text-container {
+    width: 90%;
+    padding-left: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .dee-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dee-carousel-container {
+        width: 58.33%;
+    }
+    
+    .dee-text-container {
+        width: 33.33%;
+        margin-left: 0;
+    }
 }
 
 h3 {
@@ -213,7 +243,7 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 40rem;
+    max-width: 50rem;
     margin: 1rem auto;
 }
 
@@ -225,7 +255,7 @@ figcaption {
     -1px -1px #000;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     #sportdengallery {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -250,14 +280,13 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 30rem;
-    max-height: 30rem;
+    max-width: 50rem;
+    max-height: 50rem;
     margin: 1rem auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     #nolagallery {
-        display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(3, 1fr);
     }
@@ -280,14 +309,15 @@ figcaption {
 }
 
 .trip-carousel-wrapper {
-    width: 80%;
+    min-width: 40rem;
+    max-width: 50rem;
 }
 
 .trip-text-container {
     width: 90%
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .trip-container {
         display: flex;
         flex-direction: row;
